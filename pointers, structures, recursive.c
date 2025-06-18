@@ -79,6 +79,15 @@
 // 	return (T[0] > T[1]) ? 0 : isSorted(n - 1, T + 1);
 // }
 
+// int calculateFactorial(int n)
+// {
+// 	if (n == 1)
+// 	{
+// 		return n;
+// 	}
+// 	return n * calculateFactorial(n - 1);
+// }
+
 int main()
 {
 	// char *str = (char *)malloc(100 * sizeof(char));
@@ -91,18 +100,6 @@ int main()
 	// char string[100];
 	// scanf("%s", string);
 	// printf("%s", string);
-	int m;
-	scanf("%d", &m);
-	int T[m];
 
-	for (int i = 0; i < m; i++)
-	{
-		printf("Jep numrin %d : \n", i + 1);
-		scanf("%d", &T[i]);
-	}
-
-	// printf("%d", minRecursive(m, T));
-	// printf("%d", findSum(m, T));
-	// printf("%d", isSorted(m, T));
 	return 0;
 }
