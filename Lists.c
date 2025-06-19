@@ -8,7 +8,8 @@ typedef struct node
 
 // KJO ESHTE STRUKTURA BAZE PER TE KRIJUAR NJE STRUKTURE LISTE //
 
-node *createList(int n); // FUNSKION QE KTHEN TYPE TE NODE
+node *createList(int n);                          // FUNSKION QE KTHEN TYPE TE NODE
+void addToNode(node **head, int n, int position); // FUNKSION QE SHTON NE LISTE TE NODE NJE ELEMENT NE NJE POZICION TE CAKTUAR
 
 node *createList(int n)
 {
