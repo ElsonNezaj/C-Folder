@@ -1,3 +1,4 @@
-Elson, 1, 8
-Sibora, 2, 6
-Lisa, 3, 10
+3 4  
+Studenti1  6  7  8  9  
+Studenti2  4  5  6  7  
+Studenti3  9  8  7  6
