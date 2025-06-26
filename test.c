@@ -77,7 +77,8 @@ int main()
     {
       if (fscanf(file, "%d", &students[i].notat[j]) != 1)
       {
-        printf("Gabim ne leximin e notave !\n");
+        printf("Gabim ne leximin e notes %d per studentin %s.\n",
+               j + 1, students[i].name);
         students[i].nrNotash = j;
         break;
       }
@@ -89,5 +90,6 @@ int main()
   printf("%s\n", students[0].name);
 
   fclose(file);
+  free(students);
   return 0;
 }

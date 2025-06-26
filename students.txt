@@ -1,4 +1,4 @@
-3 4  
-Studenti1  6  7  8  9  
-Studenti2  4  5  6  7  
-Studenti3  9  8  7  6
+3 4
+Student1 6 7 8 9
+Student2 4 5 6 7
+Student3 8 7 9 6
